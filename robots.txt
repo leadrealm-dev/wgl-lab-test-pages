@@ -1,0 +1,7 @@
+# Test websites for White Glove Leads lab runs: made-up businesses, not real companies.
+# The app's website reader may read them. Every other crawler is asked to stay out.
+User-agent: WhiteGloveLeadsBot
+Allow: /
+
+User-agent: *
+Disallow: /
